@@ -8,4 +8,4 @@ $producto->setId("555");
 
 print_r($producto);
 
-include 'src/config.php';
+include './src/config.php';
