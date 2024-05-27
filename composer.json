@@ -1,0 +1,19 @@
+{
+    "name": "usuario/demo-railway",
+    "description": "proyecto de prueba",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Src\\Model\\": "src/model/"
+        }
+    },
+    "authors": [
+        {
+            "name": "edwinparrales",
+            "email": "edwinparrales82@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
