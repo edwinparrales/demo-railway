@@ -1,3 +1,4 @@
 <?php
-echo "Hello World!";
-echo phpinfo();
+
+ $fecha = date("Y-m-d");
+ print_r($fecha);
