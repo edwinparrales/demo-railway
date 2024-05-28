@@ -17,4 +17,4 @@ if ($conn->connect_error) {
 
 $result = mysqli_query($conn,"Select * from categorias");
 
-print_r($result);
+print_r($result->fetch_all());

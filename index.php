@@ -2,6 +2,8 @@
 
 use Src\Model\Producto;
 include __DIR__ . '/vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 require_once './src/config.php';
 
 $producto = new Producto();
