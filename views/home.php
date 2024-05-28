@@ -8,6 +8,11 @@
     <title>Home Page</title>
 </head>
 <body>
+<nav>
+    <li>
+        <a href="?c=categoria">Categorias</a>
+    </li>
+</nav>
      <h1>Hola soy el home</h1>
      <h2>Listado</h2>
      <?php
