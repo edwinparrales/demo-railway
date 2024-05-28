@@ -3,7 +3,7 @@
 $host = $_ENV['MYSQLHOST'];
 $userName = $_ENV['MYSQLUSER'];
 $password = $_ENV['MYSQLPASSWORD'];
-$dbName = $_ENV['MYSQL_DATABASE'];
+$dbName = $_ENV['MYSQLDATABASE'];
 $port = $_ENV['MYSQLPORT'];
 
 
