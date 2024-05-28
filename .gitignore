@@ -1,3 +1,4 @@
 /vendor/
 .vcs.xml
 .idea
+.idea/*
